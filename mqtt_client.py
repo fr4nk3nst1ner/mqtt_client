@@ -1,7 +1,7 @@
 import paho.mqtt.client as paho
 import ssl
 import time
-broker="<exact_broker_FQDN>"
+broker="<exact_broker_FQDN_from_cert>"
 port=8883
 
 def on_connect(client, userdata, flags, rc):
