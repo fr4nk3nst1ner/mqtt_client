@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+
 import paho.mqtt.client as paho
 import ssl
 import time
